@@ -1,0 +1,618 @@
+# Catalan localization for GTick.
+# Copyright (C) 2003  Roland Stigge
+# Roland Stigge <stigge@antcom.de>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.2.12\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2020-05-17 16:07+0200\n"
+"PO-Revision-Date: 2004-07-28 18:01+0100\n"
+"Last-Translator: Toni Vall <tests@tiscali.es>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gtick.c:81
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Ús: %s [OPCIÓ...]\n"
+"\n"
+"Opcions:\n"
+"  -h, --help              Mostra aquest missatge d'ajuda\n"
+"  -v, --version           Mostra informació de la versió\n"
+"  -d, --debug[=nivell]     Escriu dades de depuració adicional a la sortida "
+"del programa\n"
+"\n"
+
+#: src/help.c:77
+msgid "About GTick"
+msgstr ""
+
+#: src/help.c:79
+#, fuzzy
+msgid "License"
+msgstr "Llicencia de GTick"
+
+#: src/help.c:103
+#, fuzzy
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"Logotip de Mario Andrés Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Lloc web:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Podeu enviar informes d'error o comentaris a\n"
+"la llista de correu de desenvolupament:\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:127
+msgid "GTick License"
+msgstr "Llicencia de GTick"
+
+#: src/help.c:128
+#, fuzzy
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick - El Metrònom\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Aquest programa és programari lliure; el podeu redistribuir i/o\n"
+"modificar sota els termes de la \"GNU General Public License\"\n"
+"publicada per la \"Free Software Foundation\"; versió 2\n"
+"o posterior.\n"
+"\n"
+"Aquest programa es distribueix esperant que sigui útil,\n"
+"però SENSE CAP MENA DE GARANTIA; sense garantia de\n"
+"VENDA ni d'ENCAIX A CAP OBJECTIU CONCRET. Consulteu la\n"
+"\"GNU General Public License\" per a més informació.\n"
+"\n"
+"Haurieu d'haver rebut una còpia de la \"GNU General Public License\"\n"
+"amb aquest programa; si no és així, podeu solicitar-ne una a: \n"
+"Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
+"02111-1307, Estats Units d'Amèrica."
+
+#: src/help.c:155
+msgid "Shortcuts"
+msgstr "Dreceres de teclat"
+
+#: src/help.c:162
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:168
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:174
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:180
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:186
+msgid "Alt-w"
+msgstr ""
+
+#: src/help.c:192
+msgid "Alt-q"
+msgstr ""
+
+#: src/help.c:198
+msgid "Alt-a"
+msgstr ""
+
+#: src/help.c:204
+msgid "Alt-s"
+msgstr ""
+
+#: src/help.c:210
+msgid "Alt-z"
+msgstr ""
+
+#: src/help.c:216
+msgid "Alt-x"
+msgstr ""
+
+#: src/help.c:222
+msgid "Shift-w"
+msgstr ""
+
+#: src/help.c:228
+msgid "Shift-q"
+msgstr ""
+
+#: src/help.c:234
+msgid "Shift-a"
+msgstr ""
+
+#: src/help.c:240
+msgid "Shift-s"
+msgstr ""
+
+#: src/help.c:246
+msgid "Shift-z"
+msgstr ""
+
+#: src/help.c:252
+msgid "Shift-x"
+msgstr ""
+
+#: src/help.c:258
+msgid "Start/Stop"
+msgstr "Inicia/Atura"
+
+#: src/help.c:264
+msgid "Speed: Faster"
+msgstr "Més de pressa"
+
+#: src/help.c:270
+msgid "Speed: Slower"
+msgstr "Més a poc a poc"
+
+#: src/help.c:276 src/metro.c:1722
+#, fuzzy
+msgid "Meter"
+msgstr "Unitat de base"
+
+#: src/help.c:282
+msgid "Double Speed"
+msgstr ""
+
+#: src/help.c:288
+#, fuzzy
+msgid "Half Speed"
+msgstr "Velocitat:"
+
+#: src/help.c:294
+#, fuzzy
+msgid "Speed: -10"
+msgstr "Velocitat:"
+
+#: src/help.c:300
+#, fuzzy
+msgid "Speed: +10"
+msgstr "Velocitat:"
+
+#: src/help.c:306
+#, fuzzy
+msgid "Speed: -2"
+msgstr "Velocitat:"
+
+#: src/help.c:312
+#, fuzzy
+msgid "Speed: +2"
+msgstr "Velocitat:"
+
+#: src/help.c:318
+#, fuzzy
+msgid "Double Volume"
+msgstr "Volum:"
+
+#: src/help.c:324
+#, fuzzy
+msgid "Half Volume"
+msgstr "Volum:"
+
+#: src/help.c:330
+#, fuzzy
+msgid "Volume: -10"
+msgstr "Volum:"
+
+#: src/help.c:336
+#, fuzzy
+msgid "Volume: +10"
+msgstr "Volum:"
+
+#: src/help.c:342
+#, fuzzy
+msgid "Volume: -2"
+msgstr "Volum:"
+
+#: src/help.c:348
+#, fuzzy
+msgid "Volume: +2"
+msgstr "Volum:"
+
+#: src/metro.c:74
+msgid "Idle"
+msgstr "Inactiu"
+
+#: src/metro.c:74 src/metro.c:90
+msgid "Start"
+msgstr "Inicia"
+
+#: src/metro.c:75
+msgid "Running"
+msgstr "En funcionament"
+
+#: src/metro.c:75
+msgid "Stop"
+msgstr "Atura"
+
+#  TRANSLATORS: This is the Help menu. The strings start with a slash
+#  ("/"), followed by the menu name, another slash and the menu entry.
+#  Please make sure that you translate the menu name everywhere with the same
+#  string. Otherwise, the menu is endangered to be split.
+#  An underscore marks a shortcut (also visually marked in the menu) which
+#  is only intended to mark menu names and menu entry names directly, i.e.
+#  just the menu name of a menu entry usually doesn't include an underscore.
+#: src/metro.c:79
+#, fuzzy
+msgid "_Help"
+msgstr "/_Ajuda"
+
+#  TRANSLATORS: This is the Metronome menu. The strings start with a slash
+#  ("/"), followed by the menu name, another slash and the menu entry.
+#  Please make sure that you translate the menu name everywhere with the same
+#  string. Otherwise, the menu is endangered to be split.
+#  An underscore marks a shortcut (also visually marked in the menu) which
+#  is only intended to mark menu names and menu entry names directly, i.e.
+#  just the menu name of a menu entry usually doesn't include an underscore.
+#: src/metro.c:80
+#, fuzzy
+msgid "_Metronome"
+msgstr "/_Metrònom"
+
+#: src/metro.c:81
+msgid "_Quit"
+msgstr ""
+
+#: src/metro.c:82
+msgid "_Edit"
+msgstr ""
+
+#: src/metro.c:83
+msgid "_Preferences"
+msgstr ""
+
+#: src/metro.c:84
+msgid "_View"
+msgstr ""
+
+#: src/metro.c:85
+#, fuzzy
+msgid "_About"
+msgstr "/Ajuda/_Quant a"
+
+#: src/metro.c:86
+#, fuzzy
+msgid "_Shortcuts"
+msgstr "Dreceres de teclat"
+
+#: src/metro.c:90
+msgid "Start the metronome"
+msgstr ""
+
+#: src/metro.c:91
+#, fuzzy
+msgid "_Visual Tick"
+msgstr "/Opcions/Mostra l'indicador _visual"
+
+#: src/metro.c:92
+#, fuzzy
+msgid "_Accent Table"
+msgstr "Taula d'accents"
+
+#: src/metro.c:93
+#, fuzzy
+msgid "Pr_ofiles"
+msgstr "Preferències"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:133
+msgid "Larghissimo"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:136
+msgid "Largo"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:139
+msgid "Larghetto"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:142
+msgid "Adagio"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:145
+msgid "Andante"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:148
+msgid "Moderato"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:151
+msgid "Allegro"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:154
+msgid "Presto"
+msgstr ""
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:157
+msgid "Prestissimo"
+msgstr ""
+
+#: src/metro.c:1571
+msgid "Settings"
+msgstr "Ajustaments"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1600
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr ""
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1614
+msgid "Tap"
+msgstr "Cop"
+
+#: src/metro.c:1619
+msgid "Speed:"
+msgstr "Velocitat:"
+
+#: src/metro.c:1688
+msgid "Volume:"
+msgstr "Volum:"
+
+#  TRANSLATORS: all beats are equal
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1745
+msgid "Even"
+msgstr "Uniforme"
+
+#  TRANSLATORS: duple meter
+#. TRANSLATORS: duple meter
+#: src/metro.c:1758
+msgid "2/4"
+msgstr "2/4"
+
+#  TRANSLATORS: triple meter
+#. TRANSLATORS: triple meter
+#: src/metro.c:1769
+msgid "3/4"
+msgstr "3/4"
+
+#  TRANSLATORS: quadruple meter / common meter
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1780
+msgid "4/4"
+msgstr "4/4"
+
+#  TRANSLATORS: meter with more than 4 beats per measure
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1791 src/gtkoptions.c:362
+msgid "Other:"
+msgstr "Un altre:"
+
+#: src/metro.c:1813
+msgid "Beat Accent"
+msgstr ""
+
+#: src/metro.c:1981
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"No s'ha pogut iniciar el metrònom.\n"
+"Comproveu que el dispositiu de so\n"
+"i l'arxiu de mostreig especificats són accessibles."
+
+#: src/gtkoptions.c:214
+msgid "Please choose a sound file."
+msgstr "Seleccioneu un fitxer de so."
+
+#: src/gtkoptions.c:270
+msgid "Preferences"
+msgstr ""
+
+#: src/gtkoptions.c:315
+msgid "Sound"
+msgstr "So"
+
+#: src/gtkoptions.c:331
+msgid "Default"
+msgstr "Predeterminat"
+
+#: src/gtkoptions.c:344
+msgid "Sine"
+msgstr "Alternatiu"
+
+#: src/gtkoptions.c:389
+msgid "Choose"
+msgstr "Seleccioneu"
+
+#: src/gtkoptions.c:410
+msgid "Sound System"
+msgstr ""
+
+#: src/gtkoptions.c:430
+msgid "Pulseaudio"
+msgstr ""
+
+#: src/gtkoptions.c:443
+msgid "OSS"
+msgstr ""
+
+#: src/gtkoptions.c:458
+msgid "Device filename:"
+msgstr "Nom del fitxer de dispositiu:"
+
+#: src/gtkoptions.c:477
+msgid "External Commands"
+msgstr "Ordres externes"
+
+#: src/gtkoptions.c:495
+msgid "Execute on start:"
+msgstr "Executa en iniciar:"
+
+#: src/gtkoptions.c:513
+msgid "Execute on stop:"
+msgstr "Executa en aturar:"
+
+#: src/gtkoptions.c:534
+msgid "Speed Range"
+msgstr "Rang de velocitats"
+
+#: src/gtkoptions.c:552
+msgid "Minimum BPM:"
+msgstr "Velocitat mínima (en pulsacions per minut):"
+
+#: src/gtkoptions.c:569
+msgid "Maximum BPM:"
+msgstr "Velocitat màxima (en pulsacions per minut):"
+
+#: src/profiles.c:330 src/profiles.c:616
+msgid "Unnamed Profile"
+msgstr ""
+
+#: src/profiles.c:508
+#, fuzzy
+msgid "Edit Profile"
+msgstr "Preferències"
+
+#: src/profiles.c:524
+msgid "Please enter new Profile name: "
+msgstr ""
+
+#: src/profiles.c:682
+#, fuzzy
+msgid "Profiles"
+msgstr "Preferències"
+
+#~ msgid "Sound Device"
+#~ msgstr "Dispositiu de so"
+
+#~ msgid "Beat"
+#~ msgstr "Compàs"
+
+#, fuzzy
+#~ msgid "_Profiles"
+#~ msgstr "Preferències"
+
+#, fuzzy
+#~ msgid "_Manual Timer"
+#~ msgstr "Temporitzador manual"
+
+#~ msgid "Manual Timer"
+#~ msgstr "Temporitzador manual"
+
+#~ msgid "Reset"
+#~ msgstr "Reinicia"
+
+#~ msgid ""
+#~ "Here, you can approximate the desired\n"
+#~ "speed by tapping at the \"Tap\" button.\n"
+#~ "\n"
+#~ "Just start tapping with the mouse or Enter.\n"
+#~ "\n"
+#~ "To use the calculated value, click \"OK\".\n"
+#~ "To start again, click \"Reset\".\n"
+#~ msgstr ""
+#~ "Podeu ajustar de manera aproximada la velocitat\n"
+#~ "desitjada polsant repetidament el botó \"Cop\".\n"
+#~ "\n"
+#~ "Ho podeu fer amb el ratolí o amb la tecla \"Intro\".\n"
+#~ "\n"
+#~ "Per usar la velocitat calculada, feu clic a \"D'acord\".\n"
+#~ "Si voleu tornar a començar, feu clic a \"Reinicia\".\n"
+
+#~ msgid "/Metronome/Start"
+#~ msgstr "/Metrònom/Inicia"
+
+#~ msgid "/Metronome/_Manual Timer"
+#~ msgstr "/Metrònom/_Temporitzador manual"
+
+#~ msgid "/Metronome/"
+#~ msgstr "/Metrònom/"
+
+#~ msgid "/Metronome/_Quit"
+#~ msgstr "/Metrònom/_Surt"
+
+#  TRANSLATORS: This is the Options menu. The strings start with a slash
+#  ("/"), followed by the menu name, another slash and the menu entry.
+#  Please make sure that you translate the menu name everywhere with the same
+#  string. Otherwise, the menu is endangered to be split.
+#  An underscore marks a shortcut (also visually marked in the menu) which
+#  is only intended to mark menu names and menu entry names directly, i.e.
+#  just the menu name of a menu entry usually doesn't include an underscore.
+#~ msgid "/_Options"
+#~ msgstr "/_Opcions"
+
+#~ msgid "/Options/Show _Accent Table"
+#~ msgstr "/Opcions/Mostra la taula d'_accents"
+
+#~ msgid "/Options/_Properties"
+#~ msgstr "/Opcions/_Preferències"
+
+#~ msgid "/Help/_Shortcuts"
+#~ msgstr "/Ajuda/_Dreceres de teclat"
+
+#~ msgid "/Help/_License"
+#~ msgstr "/Ajuda/_Llicència"

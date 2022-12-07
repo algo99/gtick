@@ -1,0 +1,564 @@
+# Messages français pour GNU gtick.
+# Copyright (C) 2008 Roland Stigge (msgids)
+# This file is distributed under the same license as the gtick package.
+#
+# Michel Robitaille <robitail@IRO.UMontreal.CA>, 2004.
+# Marc Veillet <scouigne@gmail.com>, 2008.
+# David Prévot <david@tilapin.org>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: gtick 0.5.0\n"
+"Report-Msgid-Bugs-To: stigge@antcom.de\n"
+"POT-Creation-Date: 2020-05-17 16:07+0200\n"
+"PO-Revision-Date: 2012-10-07 16:55-0400\n"
+"Last-Translator: David Prévot <david@tilapin.org>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: src/gtick.c:81
+#, c-format
+msgid ""
+"Usage: %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              Show this help message\n"
+"  -v, --version           Print version information\n"
+"  -d, --debug[=level]     Print additional runtime debugging data to stdout\n"
+"\n"
+msgstr ""
+"Utilisation : %s [OPTION...]\n"
+"\n"
+"Options:\n"
+"  -h, --help              afficher l'aide-mémoire\n"
+"  -v, --version           afficher la version du logiciel\n"
+"  -d, --debug[=NIVEAU]    afficher des données de débogage sur sortie "
+"standard\n"
+"\n"
+
+#: src/help.c:77
+msgid "About GTick"
+msgstr "À propos de GTick"
+
+#: src/help.c:79
+msgid "License"
+msgstr "Licence"
+
+#: src/help.c:103
+msgid ""
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo by Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Homepage:\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Email bug reports, comments, etc. to\n"
+"Developer's mailing list:\n"
+"gtick-devel@gnu.org"
+msgstr ""
+"Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright © 2003, 2004, 2005, 2006, 2007 Roland Stigge <stigge@antcom.de>\n"
+"Logo de Mario Andres Pagella <mapagella@fitzroy-is.com.ar>\n"
+"\n"
+"Page d'accueil :\n"
+"http://www.antcom.de/gtick/\n"
+"\n"
+"Signaler tous rapports de bogue, commentaires, etc. à\n"
+"la liste de diffusion des développeurs :\n"
+"gtick-devel@nongnu.org"
+
+#: src/help.c:127
+msgid "GTick License"
+msgstr "Licence de GTick"
+
+#: src/help.c:128
+msgid ""
+"GTick - The Metronome\n"
+"Copyright (c) 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright (c) 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"This program is free software; you can redistribute it and/or\n"
+"modify it under the terms of the GNU General Public License\n"
+"as published by the Free Software Foundation; either version 3\n"
+"of the License, or (at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"GTick — le métronome\n"
+"Copyright © 1999, Alex Roberts <bse@dial.pipex.com>\n"
+"Copyright © 2003, 2004, 2005, 2006 Roland Stigge <stigge@antcom.de>\n"
+"\n"
+"Ce programme est un logiciel libre ; vous pouvez le redistribuer ou le\n"
+"modifier selon les termes de la Licence Publique Générale de GNU, publiée\n"
+"par la Free Software Foundation, soit la version 3, soit (selon votre\n"
+"préférence) toute version ultérieure.\n"
+"\n"
+"Ce programme est distribué dans l'espoir qu'il soit utile,\n"
+"mais AUCUNE garantie n'est donnée tant pour des raisons COMMERCIALES\n"
+"que pour RÉPONDRE À UN BESOIN PARTICULIER. Consulter la Licence\n"
+"Publique Générale de GNU pour plus de précisions.\n"
+"\n"
+"Vous devriez avoir reçu copie de la Licence Publique Générale de GNU\n"
+"avec ce programme ; sinon, consultez <http://www.gnu.org/licenses/>."
+
+#: src/help.c:155
+msgid "Shortcuts"
+msgstr "Raccourcis"
+
+#: src/help.c:162
+msgid "Ctrl-S"
+msgstr "Ctrl-S"
+
+#: src/help.c:168
+msgid "Ctrl-+"
+msgstr "Ctrl-+"
+
+#: src/help.c:174
+msgid "Ctrl--"
+msgstr "Ctrl--"
+
+#: src/help.c:180
+msgid "Ctrl-1 ... Ctrl-9"
+msgstr "Ctrl-1 ... Ctrl-9"
+
+#: src/help.c:186
+msgid "Alt-w"
+msgstr "Alt-w"
+
+#: src/help.c:192
+msgid "Alt-q"
+msgstr "Alt-q"
+
+#: src/help.c:198
+msgid "Alt-a"
+msgstr "Alt-a"
+
+#: src/help.c:204
+msgid "Alt-s"
+msgstr "Alt-s"
+
+#: src/help.c:210
+msgid "Alt-z"
+msgstr "Alt-z"
+
+#: src/help.c:216
+msgid "Alt-x"
+msgstr "Alt-x"
+
+#: src/help.c:222
+msgid "Shift-w"
+msgstr "Maj-w"
+
+#: src/help.c:228
+msgid "Shift-q"
+msgstr "Maj-q"
+
+#: src/help.c:234
+msgid "Shift-a"
+msgstr "Maj-a"
+
+#: src/help.c:240
+msgid "Shift-s"
+msgstr "Maj-s"
+
+#: src/help.c:246
+msgid "Shift-z"
+msgstr "Maj-z"
+
+#: src/help.c:252
+msgid "Shift-x"
+msgstr "Maj-x"
+
+#: src/help.c:258
+msgid "Start/Stop"
+msgstr "Démarrer/Arrêter"
+
+#: src/help.c:264
+msgid "Speed: Faster"
+msgstr "Vitesse : accélérer"
+
+#: src/help.c:270
+msgid "Speed: Slower"
+msgstr "Vitesse : ralentir"
+
+#: src/help.c:276 src/metro.c:1722
+msgid "Meter"
+msgstr "Mesure"
+
+#: src/help.c:282
+msgid "Double Speed"
+msgstr "Vitesse double"
+
+#: src/help.c:288
+msgid "Half Speed"
+msgstr "Demi-vitesse"
+
+#: src/help.c:294
+msgid "Speed: -10"
+msgstr "Vitesse : -10"
+
+#: src/help.c:300
+msgid "Speed: +10"
+msgstr "Vitesse : +10"
+
+#: src/help.c:306
+msgid "Speed: -2"
+msgstr "Vitesse : -2"
+
+#: src/help.c:312
+msgid "Speed: +2"
+msgstr "Vitesse : +2"
+
+#: src/help.c:318
+msgid "Double Volume"
+msgstr "Volume double"
+
+#: src/help.c:324
+msgid "Half Volume"
+msgstr "Demi-volume"
+
+#: src/help.c:330
+msgid "Volume: -10"
+msgstr "Volume : -10"
+
+#: src/help.c:336
+msgid "Volume: +10"
+msgstr "Volume : +10"
+
+#: src/help.c:342
+msgid "Volume: -2"
+msgstr "Volume : -2"
+
+#: src/help.c:348
+msgid "Volume: +2"
+msgstr "Volume : +2"
+
+#: src/metro.c:74
+msgid "Idle"
+msgstr "Au ralenti"
+
+#: src/metro.c:74 src/metro.c:90
+msgid "Start"
+msgstr "Démarrer"
+
+#: src/metro.c:75
+msgid "Running"
+msgstr "Exécution"
+
+#: src/metro.c:75
+msgid "Stop"
+msgstr "Arrêter"
+
+#: src/metro.c:79
+msgid "_Help"
+msgstr "_Aide"
+
+#: src/metro.c:80
+msgid "_Metronome"
+msgstr "_Métronome"
+
+#: src/metro.c:81
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: src/metro.c:82
+msgid "_Edit"
+msgstr "_Édition"
+
+#: src/metro.c:83
+msgid "_Preferences"
+msgstr "_Préférences"
+
+#: src/metro.c:84
+msgid "_View"
+msgstr "_Vue"
+
+#: src/metro.c:85
+msgid "_About"
+msgstr "_À propos"
+
+#: src/metro.c:86
+msgid "_Shortcuts"
+msgstr "_Raccourcis"
+
+#: src/metro.c:90
+msgid "Start the metronome"
+msgstr "Démarrer le métronome"
+
+#: src/metro.c:91
+msgid "_Visual Tick"
+msgstr "Tics _visuels"
+
+#: src/metro.c:92
+msgid "_Accent Table"
+msgstr "Table d'_accents"
+
+#: src/metro.c:93
+msgid "Pr_ofiles"
+msgstr "Pr_ofils"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:133
+msgid "Larghissimo"
+msgstr "Larghissimo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:136
+msgid "Largo"
+msgstr "Largo"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:139
+msgid "Larghetto"
+msgstr "Larghetto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:142
+msgid "Adagio"
+msgstr "Adagio"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:145
+msgid "Andante"
+msgstr "Andante"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:148
+msgid "Moderato"
+msgstr "Moderato"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:151
+msgid "Allegro"
+msgstr "Allegro"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:154
+msgid "Presto"
+msgstr "Presto"
+
+#. TRANSLATORS: This is the Italian name of a musical tempo. Normally, it's
+#. not not translated, at least not in languages with latin alphabets.
+#: src/metro.c:157
+msgid "Prestissimo"
+msgstr "Prestissimo"
+
+#: src/metro.c:1571
+msgid "Settings"
+msgstr "Configuration"
+
+#. TRANSLATORS: This is a tempo name with its associated BPM
+#. (beats per minute) range
+#: src/metro.c:1600
+#, c-format
+msgid "%s   (%d ... %d)"
+msgstr "%s   (%d ... %d)"
+
+#. TRANSLATORS: This button needs to be clicked ("tapped") at least twice for
+#. specifying a tempo
+#: src/metro.c:1614
+msgid "Tap"
+msgstr "Marque"
+
+#: src/metro.c:1619
+msgid "Speed:"
+msgstr "Vitesse :"
+
+#: src/metro.c:1688
+msgid "Volume:"
+msgstr "Volume :"
+
+#. TRANSLATORS: all beats are equal
+#: src/metro.c:1745
+msgid "Even"
+msgstr "un temps"
+
+#. TRANSLATORS: duple meter
+#: src/metro.c:1758
+msgid "2/4"
+msgstr "deux temps"
+
+#. TRANSLATORS: triple meter
+#: src/metro.c:1769
+msgid "3/4"
+msgstr "trois temps"
+
+#. TRANSLATORS: quadruple meter / common meter
+#: src/metro.c:1780
+msgid "4/4"
+msgstr "quatre temps"
+
+#. TRANSLATORS: meter with more than 4 beats per measure
+#: src/metro.c:1791 src/gtkoptions.c:362
+msgid "Other:"
+msgstr "Autre :"
+
+#: src/metro.c:1813
+msgid "Beat Accent"
+msgstr "Accent rythmique"
+
+#: src/metro.c:1981
+msgid ""
+"Couldn't start metronome.\n"
+"Please check if specified sound device\n"
+"and sample file are accessible."
+msgstr ""
+"Impossible de démarrer le métronome.\n"
+"Veuillez vérifier que le périphérique de son\n"
+"et le fichier d'échantillonnage sont accessibles."
+
+#: src/gtkoptions.c:214
+msgid "Please choose a sound file."
+msgstr "Veuillez choisir un fichier de son."
+
+#: src/gtkoptions.c:270
+msgid "Preferences"
+msgstr "Préférences"
+
+#: src/gtkoptions.c:315
+msgid "Sound"
+msgstr "Son"
+
+#: src/gtkoptions.c:331
+msgid "Default"
+msgstr "Défaut"
+
+#: src/gtkoptions.c:344
+msgid "Sine"
+msgstr "Sinusoïdal"
+
+#: src/gtkoptions.c:389
+msgid "Choose"
+msgstr "Choisir"
+
+#: src/gtkoptions.c:410
+msgid "Sound System"
+msgstr "Système de son"
+
+#: src/gtkoptions.c:430
+msgid "Pulseaudio"
+msgstr "PulseAudio"
+
+#: src/gtkoptions.c:443
+msgid "OSS"
+msgstr "OSS"
+
+#: src/gtkoptions.c:458
+msgid "Device filename:"
+msgstr "Nom de fichier du périphérique :"
+
+#: src/gtkoptions.c:477
+msgid "External Commands"
+msgstr "Commandes externes"
+
+#: src/gtkoptions.c:495
+msgid "Execute on start:"
+msgstr "Exécuter au démarrage :"
+
+#: src/gtkoptions.c:513
+msgid "Execute on stop:"
+msgstr "Exécuter à l'arrêt :"
+
+#: src/gtkoptions.c:534
+msgid "Speed Range"
+msgstr "Étendue des vitesses"
+
+#: src/gtkoptions.c:552
+msgid "Minimum BPM:"
+msgstr "BPM minimal :"
+
+#: src/gtkoptions.c:569
+msgid "Maximum BPM:"
+msgstr "BPM maximal :"
+
+#: src/profiles.c:330 src/profiles.c:616
+msgid "Unnamed Profile"
+msgstr "Profil sans nom"
+
+#: src/profiles.c:508
+msgid "Edit Profile"
+msgstr "Éditer un profil"
+
+#: src/profiles.c:524
+msgid "Please enter new Profile name: "
+msgstr "Veuillez saisir un nouveau nom de profil :"
+
+#: src/profiles.c:682
+msgid "Profiles"
+msgstr "Profils"
+
+#~ msgid "Sound Device"
+#~ msgstr "Périphérique de son"
+
+#~ msgid "/Metronome/Start"
+#~ msgstr "/Métronome/Démarrer"
+
+#~ msgid "/Metronome/_Manual Timer"
+#~ msgstr "/Métronome/_Minuterie manuelle"
+
+#~ msgid "/Metronome/"
+#~ msgstr "/Métronome/"
+
+#~ msgid "/Metronome/_Quit"
+#~ msgstr "/Métronome/_Quitter"
+
+#~ msgid "/_Options"
+#~ msgstr "/_Options"
+
+#~ msgid "/Options/Show _Accent Table"
+#~ msgstr "/Options/Afficher la table des _Accents"
+
+#~ msgid "/Options/_Properties"
+#~ msgstr "/Options/_Propriétés"
+
+#~ msgid "/Help/_Shortcuts"
+#~ msgstr "/Aide/_Raccourcis"
+
+#~ msgid "/Help/_License"
+#~ msgstr "/Aide/_Licence"
+
+#~ msgid "Beat"
+#~ msgstr "Rythme"
+
+#~ msgid "Manual Timer"
+#~ msgstr "Minuterie manuelle"
+
+#~ msgid "Reset"
+#~ msgstr "Réinitialiser"
+
+#~ msgid ""
+#~ "Here, you can approximate the desired\n"
+#~ "speed by tapping at the \"Tap\" button.\n"
+#~ "\n"
+#~ "Just start tapping with the mouse or Enter.\n"
+#~ "\n"
+#~ "To use the calculated value, click \"OK\".\n"
+#~ "To start again, click \"Reset\".\n"
+#~ msgstr ""
+#~ "Vous pouvez approximer la vitesse désirée\n"
+#~ "en appuyant sur le bouton \"Tap\".\n"
+#~ "\n"
+#~ "Vous n'avez qu'à cliquer avec la souris ou appuyer sur la touche \"Retour"
+#~ "\".\n"
+#~ "\n"
+#~ "Pour utiliser la valeur calculée, cliquer sur \"OK\".\n"
+#~ "Pour recommencer, cliquer sur \"Reset\".\n"

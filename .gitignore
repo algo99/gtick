@@ -1,0 +1,12 @@
+build/
+
+# Qt Creator
+.qtc_clangd/
+*.cflags
+*.config
+*.creator
+*.creator.user
+*.cxxflags
+*.files
+*.includes
+

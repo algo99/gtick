@@ -1,0 +1,34 @@
+GTick TODO List
+===============
+
+* Bugs in Pulseaudio support:
+  - Visual tick unsynchronized / bad display
+  - Re-initialization of dsp/pulseaudio device upon prefs change
+  - Config entry of Sound System on Start
+
+* sub beats
+* start actual beat at time of setting speed (?)
+* save settings periodically, also on every profile saved
+* set to defaults
+* extend test suite, add resource check for FDs
+
+Further ideas:
+* Accent ticks: lower pitch instead of higher
+* Bugs:
+  - Sounds correct (all platforms)?
+* start gtick in running state
+* not only normal and accentuated tick, but one of the following:
+  - third state for each tick: off
+  - list of sounds (built-in, sound files) for each tick to choose from
+* GLADE integration
+* Implement PC Speaker output
+* Feedback: Playing statistics (std. deviation, ...)
+* Info: Sample rate, device, ...
+
+* generalize gtick (library?) for:
+  - GTK standalone mode (currently)
+  - console mode (interactive, record to file, ...)
+  - XMMS plugin
+  
+* ALSA support
+* JACK support
