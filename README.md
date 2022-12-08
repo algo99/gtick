@@ -19,3 +19,4 @@ $ make
 
 * NLS just skipped. Internationalization will not be used
 * Proper installation/packaging 
+* Building of `doc/test/util` are skipped
