@@ -65,9 +65,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     m
 )
 
-
 install(TARGETS ${PROJECT_NAME}
-    RUNTIME DESTINATION "${GTICK_BINARY_INSTALL_DIR}")
+    RUNTIME DESTINATION ${GTICK_INSTALL_BINDIR})
 
 #message("BISON: ${BISON_MyParser_OUTPUTS}")
 #message("FLEX: ${FLEX_MyScanner_OUTPUTS}")

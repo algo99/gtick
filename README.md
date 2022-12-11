@@ -16,9 +16,10 @@ $ mkdir build
 $ cd build
 $ cmake ..
 $ make
+$ sudo make install
 ```
 ## Things not covered yet and maybe will not be...
 
 * NLS is just skipped. Internationalization will not be used
-* Proper installation/packaging is still missing
+* Proper ~~installation~~/packaging is still missing
 * Building of `doc/test/util` are skipped
